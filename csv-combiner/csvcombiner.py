@@ -51,7 +51,7 @@ class CSVCombiner:
             else:
                 print(pandasDf.to_string(index = False, header = False))
                 #pandasDf.to_csv(fileName1, index = False, header = False, mode = 'a')
-        return "pass"
+        return "pass" 
 def main():
     combiner = CSVCombiner() #Call the CSVcombiner and pass through the arguments
     combiner.combine(sys.argv)
